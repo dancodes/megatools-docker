@@ -1,4 +1,4 @@
-# MEGADF tools
+# MEGA tools on Docker
 
 This is a dockerfile that creates a container with [github.com/megous/megatools](https://github.com/megous/megatools) in it, allowing you to use [MEGA.co.nz](https://mega.co.nz)'s service without installing anything
 
