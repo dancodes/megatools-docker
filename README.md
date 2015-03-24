@@ -8,7 +8,7 @@ This is a dockerfile that creates a container with [github.com/megous/megatools]
 
 ## Build
 
-> docker build -t dancodes/megatools .
+> docker build -t megatools .
 
 ## Usage
 
