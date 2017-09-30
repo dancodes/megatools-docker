@@ -1,5 +1,5 @@
 FROM debian:latest
-MANTAINER Daniel Sorichetti <docker@dancodes.com.ar>
+LABEL maintainer="Daniel Sorichetti <docker@dancodes.com.ar>"
 
 RUN echo "deb http://http.us.debian.org/debian unstable main non-free contrib" >> /etc/apt/sources.list
 RUN echo "deb-src http://http.us.debian.org/debian unstable main non-free contrib" >> /etc/apt/sources.list
