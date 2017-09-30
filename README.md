@@ -19,8 +19,8 @@ EMAIL=youremail@example.com
 PASS=yourpassword
 FILE=README.md
 
-sudo docker run --rm \
-         -v "$(pwd):$(pwd)" -w "$(pwd)" \ # Mount the working directory as a volume
+docker run --rm \
+         -v "$(pwd):$(pwd)" -w "$(pwd)" \
          -t -i dancodes/megatools \
          megaput \
          -u "$EMAIL" -p "$PASS" \
